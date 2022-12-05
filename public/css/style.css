@@ -1,0 +1,107 @@
+body {
+    font-family: "Avenir Next";
+    margin: 0;
+    padding: 0;
+    background-color: #f4fafa;
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    font-family: "Avenir Next";
+    font-size: 53px;
+    font-weight: 400;
+    color: deepskyblue;
+  }
+
+.kirim {
+    width: 100px;
+}
+
+.pesan-terkirim {
+    color: green;
+}
+
+h2, h3 {
+    font-family: "Lato";
+    font-weight: 300;
+    color: #2b546a;
+}  
+
+.pokemon-logo {
+    width: 80px;
+    height: 80px;
+    background-color: deepskyblue;
+}
+
+a.login-btn {
+    text-decoration: none;
+    color: white;
+  }
+
+.login-btn {
+    line-height: 60px;
+    width: 80px;
+    height: 80px;
+    background-color: deepskyblue;
+}
+
+.login-btn:hover {
+    background-color: skyblue;
+}
+
+footer {
+    margin-top: 96px;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listcards {
+    display: flex;
+}
+
+.card {
+    font-size: large;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.footer-list li {
+    padding-left: 12px;
+}
+
+.footer-logo img {
+    width: 256px;
+}
+
+.title {
+    margin-top: 96px;
+}
+
+.margin-top-body{
+    margin-top: 150px;
+}
+
+.btn-form{
+    background-color: deepskyblue;
+    color: white !important;
+}
+
+.btn-form:hover{
+    background-color: rgb(0, 171, 228);
+}
