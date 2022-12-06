@@ -13,6 +13,7 @@ const App = () => (
   <Router>
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
+        <Route path="/pokemonapps" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/ls" element={<LoginSuccess />} />
         <Route path="/rs" element={<RegisterSuccess />} />
