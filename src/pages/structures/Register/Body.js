@@ -29,13 +29,13 @@ const Body = () => {
                             <label class="form-label" for="confirm">Konfirmasi Password</label>
                             <input type="confirm" id="confirm" class="form-control" />
                         </div>
-                        <Link href="/pokemonapps/rs" class="btn btn-block mb-4 btn-form">Daftar</Link>
+                        <Link href="/rs" class="btn btn-block mb-4 btn-form">Daftar</Link>
                         <div class="row text-center">
                             <div className="col">
-                                <p>Kembali ke beranda? <Link href="/pokemonapps">Beranda</Link></p>
+                                <p>Kembali ke beranda? <Link href="/">Beranda</Link></p>
                             </div>
                             <div className="col">
-                                <p>Punya Akun? <Link href="/pokemonapps/login">Masuk</Link></p>
+                                <p>Punya Akun? <Link href="/login">Masuk</Link></p>
                             </div>
                         </div>
                     </form>

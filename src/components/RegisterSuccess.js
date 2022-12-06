@@ -8,7 +8,7 @@ const RegisterSuccess = () => {
                     <div className='col-12 text-center mt-5'>
                         <img src={'https://modelsemarang.com/wp-content/uploads/2016/07/berhasil.png'} alt='Logo Berhasil'/>
                         <h1>Berhasil</h1>
-                        <Link href='/pokemonapps/login' className='col-4 btn btn-form'>Kembali Ke Login</Link>
+                        <Link href='/login' className='col-4 btn btn-form'>Kembali Ke Login</Link>
                     </div>
                 </div>
             </div>
