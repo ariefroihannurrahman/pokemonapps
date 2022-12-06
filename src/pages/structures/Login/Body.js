@@ -26,16 +26,16 @@ const Body = () => {
                             </div>
 
                             <div class="col">
-                            <a href="/forgotpassword">Lupa password?</a>
+                            <a href="/pokemonapps/forgotpassword">Lupa password?</a>
                             </div>
                         </div>
-                        <a href="/ls" class="btn btn-block mb-4 btn-form">Masuk</a>
+                        <a href="/pokemonapps/ls" class="btn btn-block mb-4 btn-form">Masuk</a>
                         <div class="row text-center">
                             <div className="col">
-                                <p>Kembali ke beranda? <a href="/">Beranda</a></p>
+                                <p>Kembali ke beranda? <a href="/pokemonapps">Beranda</a></p>
                             </div>
                             <div className="col">
-                                <p>Bukan anggota? <a href="/register">Daftar</a></p>
+                                <p>Bukan anggota? <a href="/pokemonapps/register">Daftar</a></p>
                             </div>
                         </div>
                     </form>

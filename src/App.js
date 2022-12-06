@@ -15,12 +15,12 @@ const App = () => (
       <Routes>
         <Route path="/pokemonapps" element={<Home />} />
         <Route path="/" element={<Home />} />
-        <Route path="/ls" element={<LoginSuccess />} />
-        <Route path="/rs" element={<RegisterSuccess />} />
-        <Route path="/fs" element={<ResetSuccess />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/forgotpassword" element={<Forgot />} />
+        <Route path="/pokemonapps/ls" element={<LoginSuccess />} />
+        <Route path="/pokemonapps/rs" element={<RegisterSuccess />} />
+        <Route path="/pokemonapps/fs" element={<ResetSuccess />} />
+        <Route path="/pokemonapps/login" element={<Login />} />
+        <Route path="/pokemonapps/register" element={<Register />} />
+        <Route path="/pokemonapps/forgotpassword" element={<Forgot />} />
       </Routes>
     </Suspense>
   </Router>
