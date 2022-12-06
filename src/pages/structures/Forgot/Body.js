@@ -14,16 +14,16 @@ const Body = () => {
                             <label class="form-label" for="email">Alamat Email</label>
                             <input type="email" id="email" class="form-control" />
                         </div>
-                        <a href="/pokemonapps/fs" class="btn btn-block mb-4 btn-form">Ubah</a>
+                        <Link href="/pokemonapps/fs" class="btn btn-block mb-4 btn-form">Ubah</Link>
                         <div class="row text-center">
                             <div className="col-4">
-                                <p>Kembali ke beranda? <a href="/pokemonapps">Beranda</a></p>
+                                <p>Kembali ke beranda? <Link href="/pokemonapps">Beranda</Link></p>
                             </div>
                             <div className="col-4">
-                                <p>Ingat akun? <a href="/pokemonapps/login">Masuk</a></p>
+                                <p>Ingat akun? <Link href="/pokemonapps/login">Masuk</Link></p>
                             </div>
                             <div className="col-4">
-                                <p>Bukan member? <a href="/pokemonapps/register">Daftar</a></p>
+                                <p>Bukan member? <Link href="/pokemonapps/register">Daftar</Link></p>
                             </div>
                         </div>
                     </form>

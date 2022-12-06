@@ -5,9 +5,9 @@ const Footer = () => {
         <footer>
             <div className='footer'>
                 <div className='footer-logo center'>
-                    <a href="http://if.uinsgd.ac.id/">
+                    <Link href="http://if.uinsgd.ac.id/">
                         <img src='http://if.uinsgd.ac.id/wp-content/uploads/2016/08/h4.png' alt="Logo Informatika UIN Bandung"/>
-                    </a>
+                    </Link>
                     <p>The href attribute is required for an anchor to be keyboard accessible.</p>
                 </div>
                 <ul className='footer-list'>
